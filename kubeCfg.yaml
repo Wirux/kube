@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  url: "http://ghost-app.192.168.49.2.nip.io"
+kind: ConfigMap
+metadata:
+  name: ghost-config
+  labels:
+    app: ghost
