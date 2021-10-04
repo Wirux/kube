@@ -20,3 +20,7 @@ spec:
           image: ghost
           ports:
             - containerPort: 2368
+
+          envFrom:
+            - configMapRef:
+                name: ghost-config
